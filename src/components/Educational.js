@@ -8,20 +8,20 @@ function Educational({handleEducationalOnChange, educational}) {
             <h4 class="subtitle"> Educational Experience </h4>
             <label class="label">School name</label>
             <div class="control">
-                <input class="input is-info" type="text" defaultValue={educational.school}/>
+                <input required class="input is-info" type="text" defaultValue={educational.school}/>
             </div>
 
         </div>
         <div class="field">
             <label class="label">Title of study</label>
             <div class="control">
-                <input class="input is-info" type="text"  defaultValue={educational.study}/>
+                <input required class="input is-info" type="text"  defaultValue={educational.study}/>
             </div>
         </div>
         <div class="field">
             <label class="label">Date of study</label>
             <div class="control">
-                <input class="input is-info" type="date"  defaultValue={educational.date}/>
+                <input required class="input is-info" type="date"  defaultValue={educational.date}/>
             </div>
         </div>
     </div>
