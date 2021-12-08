@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+  }
+  
+  html {
+    background-color: #f5f6fa !important;
+  }
+
+  .columns {
+      place-content:center;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .no-padding {
+    padding:0 !important;
+  }
+  .has-padding {
+    padding:25px;
+  }
